@@ -9,6 +9,45 @@
     padding-bottom: 50px;
     color: #151414;
     text-align: center;
+    text-transform: capitalize;
+}
+
+/* nav css area  */
+.nav-main{   
+    position: absolute;
+    width: 100%; 
+    padding: 20px 0;
+}
+
+.nav-main .nav-item{
+    width: 1140px;
+    margin: 0 auto;  
+    display: flex;
+    justify-content: space-between;     
+    align-items: center;
+}
+
+.nav-main .assignment a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.nav-main ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-main ul li{
+    padding: 15px;
+}
+
+.nav-main ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 /* banner css area */
@@ -113,28 +152,28 @@ main {
 }
 
 /* my plan css area  */
-#my_plan {
+#our_plan {
     padding-bottom: 130px;
 }
 
-.my_plan_main {
+.our_plan_main {
     display: flex;
     justify-content: space-between;
 }
 
-.my_plan_item {
+.our_plan_item {
     text-align: center;
     width: 260px;
 }
 
-.my_plan_item h4 {
+.our_plan_item h4 {
     padding: 16px 0;
     font-weight: 700;
     font-size: 28px;
     color: #151414;
 }
 
-.my_plan_item p {
+.our_plan_item p {
     font-weight: 500;
     font-size: 23px;
     color: #737272;
@@ -167,5 +206,128 @@ main {
     border: none;
     border-radius: 5px;
     color: #005FAC;
+    cursor: pointer;
+}
+
+
+/* our team css area */
+#our_team {
+    padding-bottom: 130px;
+}
+
+.team_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_item {
+    background-color: rgba(0, 95, 172, 0.8);
+    width: 230px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    box-shadow: 0px 0px 8px rgba(21, 20, 20, 0.8);
+}
+
+.team_item figure img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.team_item figure figcaption {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.team_item figure p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* footer css area */
+footer {
+    background-color: #151414;
+    padding: 130px 0;
+}
+
+.footer_container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future {
+    width: 485px;
+}
+
+.future h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+
+.future p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+
+.future p a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.future a {
+    margin-right: 10px;
+}
+
+.subscribe {
+    width: 325px;
+}
+
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.subscribe form input[type="email"] {
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 18px;
+    color: #F3F3F3;
+    border-radius: 8px;
+}
+
+.subscribe form input::placeholder {
+    color: #F3F3F3;
+}
+
+.subscribe form input[type="submit"] {
+    padding: 20px 36px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #005FAC;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
     cursor: pointer;
 }
