@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main_header {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #151414;
+    text-align: center;
+}
+
+/* banner css area */
+#banner {
+    padding-top: 216px;
+    padding-bottom: 166px;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ban-main {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+
+.ban-text {
+    width: 525px;
+    text-align: right;
+}
+
+.ban-text h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.ban-text p {
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+.ban-text button {
+    padding: 20px 25px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* My_failures_of_previous_year css area */
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#My_failures_of_previous_year {
+    padding: 130px 0;
+}
+
+.My_failures_of_previous_year_main {
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 87px;
+}
+
+.My_failures_of_previous_year_text {
+    padding-bottom: 84px;
+}
+
+.My_failures_of_previous_year_text h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-right: 60px;
+    padding-bottom: 24px;
+    color: #151414;
+}
+
+.My_failures_of_previous_year_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 16px;
+    color: #444343;
+    padding-right: 90px;
+}
+
+.My_failures_of_previous_year_text span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.My_failures_of_previous_year_text span img {
+    padding-right: 10px;
+}
+
+/* my plan css area  */
+#my_plan {
+    padding-bottom: 130px;
+}
+
+.my_plan_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my_plan_item {
+    text-align: center;
+    width: 260px;
+}
+
+.my_plan_item h4 {
+    padding: 16px 0;
+    font-weight: 700;
+    font-size: 28px;
+    color: #151414;
+}
+
+.my_plan_item p {
+    font-weight: 500;
+    font-size: 23px;
+    color: #737272;
+}
+
+.plan_ban {
+    margin-top: 130px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #005FAC, rgba(0, 95, 172, 0)), url(../images/watch.png);
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.plan_ban h4 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 460px;
+    line-height: 47px;
+    padding-bottom: 24px;
+    margin-left: 64px;
+}
+
+.plan_ban button {
+    margin-left: 64px;
+    padding: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    cursor: pointer;
+}
